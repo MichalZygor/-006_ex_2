@@ -6,9 +6,6 @@ public class Point {
     private double y;
 
     public Point() {
-    }
-
-    public void inputPoint() {
         System.out.println("Podaj współrzedne X,Y dla układu współrzednych. Użyj przecinka jako separatora dla liczb "
                 + "niecałkowitych.");
         Scanner scanner = new Scanner(System.in);
