@@ -1,5 +1,5 @@
-public class ReturnQuadrant {
-    public ReturnQuadrant(Point point) {
+public class QuadrantChecker {
+    public QuadrantChecker(Point point) {
         double x = point.getX();
         double y = point.getY();
         String quadrant = "żadnej";
